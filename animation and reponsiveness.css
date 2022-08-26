@@ -1,0 +1,45 @@
+@keyframes glowingbtn{
+    from{
+        transform: scale(0.7);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+@media screen and (max-width: 977px){
+    nav{
+        justify-content: center;
+        margin-top: 0;
+    }
+
+}
+@media screen and (max-width:1140px){
+    body{
+        height: auto;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        text-align: center;
+        overflow-y: unset;
+        background: linear-gradient(red,yellow,green);
+    }
+    .left-circle,
+    .right-circle{
+        display: none;
+    }
+    .container{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content{
+        width: 100%;
+        order: 2;
+        margin-bottom: 20px;
+    }
+    #img-carousel{
+        position: unset;
+        order: 1;
+        margin-top: 10px;
+    }
+}
